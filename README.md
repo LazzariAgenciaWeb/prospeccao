@@ -31,3 +31,11 @@ O comando gera um arquivo `leads.csv` na pasta atual, com colunas para nome, cat
 - Criar testes automatizados e validação de campos obrigatórios.
 - Permitir exportação em formatos adicionais (XLSX/Google Sheets) e integração direta com CRM.
 - Incluir cache e registro de atividade para acompanhar status das consultas.
+
+## Como testar
+
+Execute os testes automatizados com:
+
+```bash
+PYTHONPATH=src pytest
+```
